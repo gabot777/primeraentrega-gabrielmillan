@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quellón Sport - Gimnasio de Alto Nivel</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* Agregamos una fuente más impactante para los títulos, similar a la de la imagen */
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap');
+        .font-anton {
+            font-family: 'Anton', sans-serif;
+        }
+        
+        
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-red-600 text-white py-2 text-xs sm:text-sm">
+        <div class="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Quellón, Región de Los Lagos, Chile</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:contacto@quellonsport.cl" class="hover:text-red-200">contacto@quellonsport.cl</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 mt-2 sm:mt-0">
+                <a href="#" aria-label="Facebook" class="hover:text-red-200"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram" class="hover:text-red-200"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube" class="hover:text-red-200"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <nav class="bg-white shadow-lg sticky top-0 z-40">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center py-3">
+                    <a href="/" class="flex items-center space-x-2">
+                        <img src="../../public/assets/img/logotipo gym.png" alt="Logo Quellón Sport" class="h-14 w-auto">
+                    </a>
+    
+                    <div class="hidden lg:flex items-center space-x-6 text-sm font-semibold uppercase">
+                        <a href="public/index.html" class="text-red-600 border-b-2 border-red-600 pb-1">Inicio</a>
+                        <a href="../planes.html" class="text-gray-700 hover:text-red-600">Planes</a>
+                        <a href="../nosotros.html" class="text-gray-700 hover:text-red-600">Nosotros</a>
+                        <a href="../servicios.html" class="text-gray-700 hover:text-red-600">Servicios</a>
+                        <a href="../zonakids.html" class="text-gray-700 hover:text-red-600">Zona Kids</a>
+                        <a href="../coffefit.html" class="text-gray-700 hover:text-red-600">Coffefit</a>
+                    </div>
+    
+                    <div class="hidden lg:flex items-center space-x-4">
+                        <div class="flex items-center space-x-2 text-gray-700">
+                            <i class="fa-solid fa-phone text-red-600"></i>
+                            <span class="text-sm font-semibold">+56 9 5038 0928</span>
+                        </div>
+                        <a href="#contacto" class="bg-red-600 text-white px-5 py-2 rounded-md text-sm font-bold uppercase hover:bg-red-700 transition-colors">
+                            Contacto
+                        </a>
+                    </div>
+                    
+                    <button id="mobile-menu-btn" class="lg:hidden text-gray-800 text-2xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+    
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t">
+                <div class="px-4 pt-2 pb-4 space-y-2 text-center">
+                    <a href="#inicio" class="block py-2 text-red-600 font-semibold">Inicio</a>
+                    <a href="#planes" class="block py-2 text-gray-700 font-semibold hover:text-red-600">Planes</a>
+                    <a href="#nosotros" class="block py-2 text-gray-700 font-semibold hover:text-red-600">Nosotros</a>
+                    <a href="#servicios" class="block py-2 text-gray-700 font-semibold hover:text-red-600">Servicios</a>
+                    <a href="#zona-kids" class="block py-2 text-gray-700 font-semibold hover:text-red-600">Zona Kids</a>
+                    <a href="#coffefit" class="block py-2 text-gray-700 font-semibold hover:text-red-600">Coffefit</a>
+                    <a href="#contacto" class="block mt-4 w-full bg-red-600 text-white px-6 py-2 rounded-md font-bold hover:bg-red-700">
+                        CONTACTO
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="inicio" class="relative h-screen bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/assets/img/fotoprincipal.png');">
+            <div class="container mx-auto px-4 h-full flex flex-col justify-center items-start text-white">
+                <div class="max-w-2xl">
+                    <span class="text-red-500 font-bold text-lg tracking-widest uppercase">En Quellón</span>
+                    <h1 class="font-anton text-5xl md:text-7xl lg:text-8xl my-4 uppercase tracking-wide">
+<img src="../../public/assets/img/gym de alto nivel.png" alt="logo">
+                    </h1>
+                    <p class="text-gray-200 text-base md:text-lg max-w-lg">
+                        Quellón Sport, un gimnasio con los mejores estándares en cuanto a maquinarias y profesionales nunca antes visto en la zona.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <a href="https://wa.me/56950380928?text=Hola,%20quisiera%20consultar%20por%20los%20planes." target="_blank" class="fixed bottom-5 right-5 z-50 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:bg-green-600 transition-colors flex items-center space-x-3">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="hidden sm:block font-semibold text-sm">Consulta por nuestros planes</span>
+    </a>
+    <section class="bg-black py-16 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+            <!-- Grid de Imágenes -->
+            <div class="w-full lg:w-1/2">
+                <div class="grid grid-cols-4 grid-rows-2 gap-2 h-80">
+                    <div class="overflow-hidden rounded">
+                        <img src="../../public/assets/img/foyogym.png" alt="nosotros" class="w-full h-full object-cover">
+                    </div>
+                    
+                
+                </div>
+            </div>
+            
+            <!-- Contenido de Texto -->
+            <div class="w-full lg:w-1/2 text-white">
+                <div class="relative mb-8">
+                    <div class="absolute -top-6 left-0">
+                        <div class="w-16 h-1 bg-red-500 mb-1"></div>
+                        <div class="w-10 h-1 bg-red-500"></div>
+                    </div>
+                    <h2 class="text-6xl lg:text-7xl font-black" style="text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">
+                        NOSOTROS
+                    </h2>
+                </div>
+                
+                <p class="text-lg lg:text-xl leading-relaxed text-gray-300 font-light">
+                    Quellón Sport un gimnasio con los mejores estándares en cuanto a maquinarias y profesionales nunca antes visto 
+                    en la zona. Nuestros profesionales apuntan a brindar una atención personalizada e integral, donde sus propios 
+                    administradores son profesionales en el área de la actividad física.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="flex">
+            <!-- Título SERVICIOS en bloque rojo -->
+            <div class="bg-red-500 flex items-center justify-center" style="writing-mode: vertical-rl; text-orientation: mixed; width: 200px;">
+                <h2 class="text-white text-4xl font-black tracking-wider transform rotate-180 py-8">
+                    SERVICIOS
+                </h2>
+            </div>
+            
+            <!-- Grid de imágenes -->
+            <div class="flex-1 grid grid-cols-4 h-96">
+                <!-- Imagen 1 - Levantamiento de pesas -->
+                <div class="relative overflow-hidden">
+                    <img src="../../public/assets/img/gym.png" alt="levA" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 2 - Karate -->
+                <div class="relative overflow-hidden">
+                    <img src="../../public/assets/img/karate.png" alt="karate" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 3 - Entrenamiento funcional -->
+                <div class="relative overflow-hidden">
+                    <img src="../../public/assets/img/pta.png" alt="PATA" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 4 - Entrenamiento personalizado -->
+                <div class="relative overflow-hidden">
+                    <img src="../../public/assets/img/entrenamiento.png" alt="entrena" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
